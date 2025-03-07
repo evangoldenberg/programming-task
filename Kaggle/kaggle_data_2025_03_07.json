@@ -41,16 +41,28 @@
         ],
         "languages": [
             [
-                "Dockerfile",
-                3528
-            ],
-            [
                 "Julia",
-                1364
+                70
             ],
             [
-                "Shell",
-                787
+                "BASH",
+                14
+            ],
+            [
+                "Dockerfile",
+                62
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Markdown",
+                1
+            ],
+            [
+                "Total",
+                316
             ]
         ]
     },
@@ -79,7 +91,7 @@
             ],
             [
                 "stars",
-                2516
+                2517
             ],
             [
                 "forks",
@@ -97,27 +109,59 @@
         "languages": [
             [
                 "Python",
-                171401
+                3617
             ],
             [
-                "Shell",
-                17019
+                "BASH",
+                475
             ],
             [
                 "Dockerfile",
-                11626
+                143
             ],
             [
-                "PureBasic",
-                4637
+                "JSON",
+                164
             ],
             [
-                "Jupyter Notebook",
-                1778
+                "Plain Text",
+                30747
             ],
             [
-                "Smarty",
-                458
+                "CSV",
+                430
+            ],
+            [
+                "Markdown",
+                75
+            ],
+            [
+                "Jupyter",
+                75
+            ],
+            [
+                "Shell",
+                14
+            ],
+            [
+                "XML",
+                24317
+            ],
+            [
+                "Go Template",
+                176
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Smarty Template",
+                11
+            ],
+            [
+                "Total",
+                60413
             ]
         ]
     },
@@ -164,23 +208,47 @@
         "languages": [
             [
                 "R",
-                20275
+                461
             ],
             [
-                "Shell",
-                9139
+                "BASH",
+                271
             ],
             [
                 "Dockerfile",
-                7228
+                106
             ],
             [
-                "Jupyter Notebook",
-                557
+                "CSV",
+                2
             ],
             [
-                "Smarty",
-                458
+                "JSON",
+                13
+            ],
+            [
+                "Jupyter",
+                30
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Markdown",
+                52
+            ],
+            [
+                "Shell",
+                6
+            ],
+            [
+                "Smarty Template",
+                11
+            ],
+            [
+                "Total",
+                1121
             ]
         ]
     },
@@ -227,7 +295,11 @@
         "languages": [
             [
                 "R",
-                3577
+                70
+            ],
+            [
+                "Total",
+                70
             ]
         ]
     },
@@ -273,16 +345,32 @@
         ],
         "languages": [
             [
-                "Shell",
-                21705
+                "R",
+                197
             ],
             [
-                "R",
-                7795
+                "Shell",
+                528
+            ],
+            [
+                "YAML",
+                110
             ],
             [
                 "Dockerfile",
-                2342
+                35
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Markdown",
+                17
+            ],
+            [
+                "Total",
+                1056
             ]
         ]
     },
@@ -291,7 +379,7 @@
         "metrics": [
             [
                 "commits",
-                238
+                240
             ],
             [
                 "contributors",
@@ -311,11 +399,11 @@
             ],
             [
                 "stars",
-                6482
+                6485
             ],
             [
                 "forks",
-                1130
+                1131
             ],
             [
                 "environments",
@@ -329,19 +417,59 @@
         "languages": [
             [
                 "Python",
-                1735749
+                41373
+            ],
+            [
+                "Markdown",
+                3356
+            ],
+            [
+                "License",
+                676
             ],
             [
                 "Shell",
-                12899
+                351
             ],
             [
-                "Jupyter Notebook",
-                1939
+                "Autoconf",
+                7
+            ],
+            [
+                "CSV",
+                1472
+            ],
+            [
+                "Plain Text",
+                496
+            ],
+            [
+                "YAML",
+                113
             ],
             [
                 "Dockerfile",
-                888
+                17
+            ],
+            [
+                "JSON",
+                1
+            ],
+            [
+                "Jupyter",
+                1
+            ],
+            [
+                "ReStructuredText",
+                4
+            ],
+            [
+                "TOML",
+                67
+            ],
+            [
+                "Total",
+                47934
             ]
         ]
     },
@@ -374,7 +502,7 @@
             ],
             [
                 "forks",
-                251
+                252
             ],
             [
                 "environments",
@@ -387,16 +515,40 @@
         ],
         "languages": [
             [
-                "Jupyter Notebook",
-                2934427
+                "Jupyter",
+                86214
             ],
             [
                 "Python",
-                736081
+                15276
+            ],
+            [
+                "YAML",
+                203
             ],
             [
                 "Shell",
-                26971
+                589
+            ],
+            [
+                "Markdown",
+                233
+            ],
+            [
+                "Plain Text",
+                77
+            ],
+            [
+                "CSV",
+                327922
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Total",
+                430683
             ]
         ]
     },
@@ -443,23 +595,47 @@
         "languages": [
             [
                 "TypeScript",
-                38759
+                1131
+            ],
+            [
+                "JSON",
+                158
+            ],
+            [
+                "Markdown",
+                83
             ],
             [
                 "CSS",
-                856
+                11
+            ],
+            [
+                "Docker ignore",
+                13
             ],
             [
                 "Dockerfile",
-                392
+                10
             ],
             [
                 "JavaScript",
-                103
+                6
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "SVG",
+                17
             ],
             [
                 "Shell",
-                101
+                2
+            ],
+            [
+                "Total",
+                1600
             ]
         ]
     },
@@ -505,36 +681,64 @@
         ],
         "languages": [
             [
-                "Jupyter Notebook",
-                1847244
-            ],
-            [
                 "Python",
-                901008
+                19763
             ],
             [
-                "JavaScript",
-                403142
+                "JSON",
+                1498
             ],
             [
                 "TypeScript",
-                84404
+                1849
             ],
             [
                 "Java",
-                77923
+                1608
             ],
             [
-                "HTML",
-                27730
+                "JavaScript",
+                6979
             ],
             [
                 "Shell",
-                16155
+                299
+            ],
+            [
+                "Markdown",
+                372
+            ],
+            [
+                "Jupyter",
+                49499
+            ],
+            [
+                "HTML",
+                726
             ],
             [
                 "Dockerfile",
-                3092
+                42
+            ],
+            [
+                "Plain Text",
+                258
+            ],
+            [
+                "Autoconf",
+                7
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "YAML",
+                9
+            ],
+            [
+                "Total",
+                83078
             ]
         ]
     },
@@ -578,7 +782,20 @@
                 0
             ]
         ],
-        "languages": []
+        "languages": [
+            [
+                "YAML",
+                6
+            ],
+            [
+                "Markdown",
+                1
+            ],
+            [
+                "Total",
+                7
+            ]
+        ]
     },
     {
         "repository": "kagglehub",
@@ -593,7 +810,7 @@
             ],
             [
                 "branches",
-                35
+                36
             ],
             [
                 "tags",
@@ -605,7 +822,7 @@
             ],
             [
                 "stars",
-                184
+                189
             ],
             [
                 "forks",
@@ -622,16 +839,60 @@
         ],
         "languages": [
             [
-                "Python",
-                355435
+                "Markdown",
+                480
             ],
             [
-                "Shell",
-                1979
+                "JSON",
+                71
+            ],
+            [
+                "YAML",
+                180
             ],
             [
                 "Dockerfile",
-                1113
+                15
+            ],
+            [
+                "BASH",
+                60
+            ],
+            [
+                "CSV",
+                4
+            ],
+            [
+                "Docker ignore",
+                4
+            ],
+            [
+                "JSONL",
+                3
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Plain Text",
+                1
+            ],
+            [
+                "Python",
+                4
+            ],
+            [
+                "TOML",
+                182
+            ],
+            [
+                "XML",
+                24
+            ],
+            [
+                "Total",
+                1197
             ]
         ]
     },
@@ -640,15 +901,15 @@
         "metrics": [
             [
                 "commits",
-                0
+                1
             ],
             [
                 "contributors",
-                0
+                1
             ],
             [
                 "branches",
-                0
+                1
             ],
             [
                 "tags",
@@ -675,6 +936,19 @@
                 0
             ]
         ],
-        "languages": []
+        "languages": [
+            [
+                "Python",
+                11809
+            ],
+            [
+                "License",
+                169
+            ],
+            [
+                "Total",
+                11978
+            ]
+        ]
     }
 ]

@@ -84,20 +84,29 @@ def get_closed_issues_count(owner, repo, token=None):
 
 def get_repo_languages(owner, repo):
     """
-    Retrieve the languages used in a repository along with their byte counts.
+    Retrieve language statistics from the Codetabs API for a given repository,
+    and return a list of tuples, where each tuple contains:
+    
+        (language, files, lines, blanks, comments, linesOfCode)
     
     Parameters:
         owner (str): Repository owner.
         repo (str): Repository name.
         
     Returns:
-        list of tuples: Each tuple contains (language, byte_count).
+        list of tuples: Each tuple represents a language's statistics.
     """
-    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+    url = f"https://api.codetabs.com/v1/loc?github={owner}/{repo}"
     response = requests.get(url)
     if response.status_code != 200:
         raise Exception(f"Error fetching languages: {response.status_code}")
-    return list(response.json().items())
+    
+    data = response.json()  # data is a list of dicts
+    # Convert each dictionary into a tuple with the keys in the desired order
+    result = []
+    for entry in data:
+        result.append([entry.get("language"), entry.get("linesOfCode")])
+    return result
 
 def get_repo_info(owner, repo):
     """
@@ -168,7 +177,6 @@ if __name__ == "__main__":
             "metrics": repo_metrics,
             "languages": repo_languages
         }
-        print(repo_data)
         all_repo_data.append(repo_data)
     
     save_data_to_json(all_repo_data, filename_prefix="kaggle_data")
